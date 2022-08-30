@@ -1,0 +1,39 @@
+nav{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.container{
+ display: flex;
+ text-decoration-line: inline; }
+
+.gambar{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+@media(max-width:1109px){
+nav #kategori{
+display: none;
+}
+
+
+nav input{
+    display:none;
+}
+
+        
+}
+
+}
